@@ -20,8 +20,8 @@ function getpets(kind) {
     // data: data, //傳送給後端的資料
     success: function (response) {
       console.log(response); //成功後回傳的資料json
-      alert(response);
-      $("#size").text(response.length); 
+      // alert(response);
+      $("#size").text(response.length);
       if (response.length > 0) {
         jsonString = JSON.stringify(response); //JSON.stringify() 方法是將一個JavaScript值(物件或者陣列)轉換為一個 JSON字串
         json2table(jsonString, $("#table"));

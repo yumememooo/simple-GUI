@@ -29,22 +29,24 @@
           dividers) to a table:
         </p>
       </div>
-      <div class="col-xs-12">
-        <div class="form-group row">
-          <div class="col-xs-3">
-            Kind: <input type="text" id="test" value="Not use" />
-          </div>
-          <div class="col-xs-8">
-            <label for="sel1">Select list (select one):</label>
-            <select class="form-control" id="kind" name="sellist1">
-              <option>貓</option>
-              <option>狗</option>
-            </select>
-          </div>
+      <div class="form-group row align-items-center">
+        <div class="col-xs-3 col-md-6">
+          Kind: <input type="text" id="test" value="Not use" />
         </div>
-        <button type="button" class="btn btn-primary">FIND</button>
+        <div class="col-xs-8 col-md-3">
+          <label for="sel1">select one:</label>
+          <select id="kind" name="sellist1">
+            <option>貓</option>
+            <option>狗</option>
+          </select>
+        </div>
+        <div class="col-xs-8 col-md-2">
+          <button type="button" class="btn btn-primary">FIND</button>
+        </div>
       </div>
-      <div class="row">
+
+      <!-- Result -->
+      <div class="form-group row">
         <p id="size"></p>
         <table class="table" id="table">
           <thead>
