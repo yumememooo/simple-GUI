@@ -32,26 +32,31 @@
 
 ## 實作參考
 
-- HTML 頁面參考 輸入框/下拉選單/按鈕樣式設定
-  https://www.w3schools.com/bootstrap4/bootstrap_forms_inputs.asp
-  https://getbootstrap.com/docs/4.0/components/buttons/
+- HTML 頁面參考 bootstrap4
 
-- jQuery 按鈕事件 jQuery click() Method
-  https://www.w3schools.com/jquery/event_click.asp
+  1. 輸入框/下拉選單 https://www.w3schools.com/bootstrap4/bootstrap_forms_inputs.asp
+  2. 按鈕樣式 https://getbootstrap.com/docs/4.0/components/buttons/
+  3. 弹出模态框 (Modal) https://code.z01.com/v4/components/modal.html
+
+- jQuery 按鈕事件
+
+  - jQuery click() Method
+    https://www.w3schools.com/jquery/event_click.asp
 
 - jQuery 利用 ajax 打後端 API
-  jQuery - ajax -【jQuery】如何使用 ajax 和後端 server 進行資料的 request, response
-  https://spicyboyd.blogspot.com/2018/08/jquery-ajax-server-request-response.html
 
-- 拿到資料後整理成表格
-  Json to table
+  - jQuery - ajax -【jQuery】如何使用 ajax 和後端 server 進行資料的 request, response
+    https://spicyboyd.blogspot.com/2018/08/jquery-ajax-server-request-response.html
+
+- 拿到資料後整理成表格( Json to table)
+
   - JQuery 版本 Json to table
-  https://www.w3schools.com/code/tryit.asp?filename=GHYGTEA5D18G
-  https://ithelp.ithome.com.tw/questions/10199870
+    1. https://www.w3schools.com/code/tryit.asp?filename=GHYGTEA5D18G
+    2. https://ithelp.ithome.com.tw/questions/10199870
 
 - 畫面調整:Bootstrap4 的 RWD class 解說
   - [CSS 學習筆記] Bootstrap4 布局與欄位的使用
-  https://andy6804tw.github.io/2018/01/06/bootstrap-tutorial(1)/
+    https://andy6804tw.github.io/2018/01/06/bootstrap-tutorial(1)/
 
 ## debug & Issue
 
