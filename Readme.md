@@ -36,27 +36,27 @@
   https://www.w3schools.com/bootstrap4/bootstrap_forms_inputs.asp
   https://getbootstrap.com/docs/4.0/components/buttons/
 
-- Juery 按鈕事件 jQuery click() Method
+- jQuery 按鈕事件 jQuery click() Method
   https://www.w3schools.com/jquery/event_click.asp
 
-- Juery 利用 ajax 打後端 API
+- jQuery 利用 ajax 打後端 API
   jQuery - ajax -【jQuery】如何使用 ajax 和後端 server 進行資料的 request, response
   https://spicyboyd.blogspot.com/2018/08/jquery-ajax-server-request-response.html
 
 - 拿到資料後整理成表格
   Json to table
-  JQuery 版本 Json to table
+  - JQuery 版本 Json to table
   https://www.w3schools.com/code/tryit.asp?filename=GHYGTEA5D18G
   https://ithelp.ithome.com.tw/questions/10199870
 
 - 畫面調整:Bootstrap4 的 RWD class 解說
-  [CSS 學習筆記] Bootstrap4 布局與欄位的使用
+  - [CSS 學習筆記] Bootstrap4 布局與欄位的使用
   https://andy6804tw.github.io/2018/01/06/bootstrap-tutorial(1)/
 
 ## debug & Issue
 
 - CORS
-  如果打 API 遇到類似以下錯誤，代表跨域請求失敗，一般來講可以請後端加上'Access-Control-Allow-Origin':\*實作解決。
+  如果打 API 遇到類似以下錯誤，代表跨域請求失敗，一般來講可以請後端加上'Access-Control-Allow-Origin':\* 實作解決。
 
 ```
 Access to XMLHttpRequest at 'http://127.0.0.1:56888/api/v1/pet?animal_kind=Mickey%20Mouse&_=1611386085016' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
