@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!-- Google CDN: -->
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-  <!-- Downloading jQuery -->
-  <script src="./lib/js/jquery3.5.1/jquery-3.5.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
-<body>
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- get libiary from web -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> useless? -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Google CDN: -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 
-<div class="container">
-  <h2>Basic Table</h2>
-  <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p> 
-  <p>Kind: <input type="text" id="test" value="Mickey Mouse"><button type="button" class="btn btn-primary">FIND</button></p>
+    <!------- get libiary from web -------->
 
+    <!-- get libiary by Download -->
+    <!-- Downloading jQuery -->
+    <script src="./lib/js/jquery3.5.1/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Basic Table</h2>
+      <div class="row">
+        <p>
+          The .table class adds basic styling (light padding and horizontal
+          dividers) to a table:
+        </p>
+      </div>
+      <div class="col-xs-12">
+        <div class="form-group row">
+          <div class="col-xs-3">
+            Kind: <input type="text" id="test" value="Not use" />
+          </div>
+          <div class="col-xs-8">
+            <label for="sel1">Select list (select one):</label>
+            <select class="form-control" id="kind" name="sellist1">
+              <option>貓</option>
+              <option>狗</option>
+            </select>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary">FIND</button>
+      </div>
+      <div class="row">
+        <p id="size"></p>
+        <table class="table" id="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+  </body>
 
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Email</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
-      </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-</body>
-
-<script src="./custom/js/click.js"></script>
+  <!-- your code here -->
+  <script src="./custom/js/click.js"></script>
 </html>
