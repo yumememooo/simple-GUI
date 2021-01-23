@@ -6,8 +6,8 @@
 
 1. html:畫面元素的搭建
 
-- bootstrap:網站樣板，由 HTML、CSS 和 JavaScript 寫成的前端框架，核心的設計目標是達成 RWD 響應式與行動優先。
-- 如果不想要管網頁設計可以直接向以下這樣套用 ex:按鈕設計
+  - bootstrap:網站樣板，由 HTML、CSS 和 JavaScript 寫成的前端框架，核心的設計目標是達成 RWD 響應式與行動優先。<br>
+  如果不想要管網頁設計可以直接向以下這樣套用 ex:按鈕設計
   https://www.w3schools.com/bootstrap/bootstrap_buttons.asp (w3school 提供了很多範例線上可以直接按套用)
 
 2. css: 畫面元素的樣式，色彩，動畫等
