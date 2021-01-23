@@ -1,6 +1,6 @@
 # simple-html
 
-簡單使用 Javascript(JQuery)/css/html 搭建打後端 API 呈現與操作之 GUI
+簡單使用 Javascript(JQuery)/css/html 搭建打後端 API 呈現與操作之 GUI。
 
 ## 簡介
 
@@ -10,10 +10,10 @@
   如果不想要管網頁設計可以直接向以下這樣套用 ex:按鈕設計
   https://www.w3schools.com/bootstrap/bootstrap_buttons.asp (w3school 提供了很多範例線上可以直接按套用)
 
-2. css: 畫面元素的樣式，色彩，動畫等
+2. css: 畫面元素的樣式、色彩及動畫等
 3. Javascript(js) 操控畫面的邏輯
 
-- Jquery :jQuery 以 Javascript 來編寫的函式庫，先幫你實作了很多 Javascript 的函數功能，讓開發者可以更輕鬆方便操作網頁元素，是免費的，<head>需引入。
+- Jquery :jQuery 以 Javascript 來編寫的函式庫，幫你實作了很多 Javascript 的函數功能，讓開發者可以更輕鬆方便操作網頁元素，是免費的，需在 HTML 檔案中的 head 區塊引入。
 
   - jQuery 程式碼前面需寫 $()
   - jQuery 元素选择器:因為要操控 HTML 元素，就必須知道怎麼對應，最簡單的三種如下:
