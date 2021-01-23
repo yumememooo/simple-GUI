@@ -6,7 +6,7 @@
 
 1. html:畫面元素的搭建
 
-  - bootstrap:網站樣板，由 HTML、CSS 和 JavaScript 寫成的前端框架，核心的設計目標是達成 RWD 響應式與行動優先。<br>
+- bootstrap:網站樣板，由 HTML、CSS 和 JavaScript 寫成的前端框架，核心的設計目標是達成 RWD 響應式與行動優先。<br>
   如果不想要管網頁設計可以直接向以下這樣套用 ex:按鈕設計
   https://www.w3schools.com/bootstrap/bootstrap_buttons.asp (w3school 提供了很多範例線上可以直接按套用)
 
@@ -37,26 +37,28 @@
   1. 輸入框/下拉選單 https://www.w3schools.com/bootstrap4/bootstrap_forms_inputs.asp
   2. 按鈕樣式 https://getbootstrap.com/docs/4.0/components/buttons/
   3. 弹出模态框 (Modal) https://code.z01.com/v4/components/modal.html
+  4. 畫面調整:Bootstrap4 的 RWD class 解說
 
-- jQuery 按鈕事件
-
-  - jQuery click() Method
-    https://www.w3schools.com/jquery/event_click.asp
-
-- jQuery 利用 ajax 打後端 API
-
-  - jQuery - ajax -【jQuery】如何使用 ajax 和後端 server 進行資料的 request, response
-    https://spicyboyd.blogspot.com/2018/08/jquery-ajax-server-request-response.html
-
-- 拿到資料後整理成表格( Json to table)
-
-  - JQuery 版本 Json to table
-    1. https://www.w3schools.com/code/tryit.asp?filename=GHYGTEA5D18G
-    2. https://ithelp.ithome.com.tw/questions/10199870
-
-- 畫面調整:Bootstrap4 的 RWD class 解說
   - [CSS 學習筆記] Bootstrap4 布局與欄位的使用
     https://andy6804tw.github.io/2018/01/06/bootstrap-tutorial(1)/
+
+- jQuery
+
+  1. 按鈕事件 jQuery click() Method
+
+  - https://www.w3schools.com/jquery/event_click.asp
+
+  2. jQuery 利用 ajax 打後端 API
+
+  - 【jQuery】如何使用 ajax 和後端 server 進行資料的 request, response
+    https://spicyboyd.blogspot.com/2018/08/jquery-ajax-server-request-response.html
+
+  3. 拿到資料後整理成表格( Json to table)
+
+  - JQuery 版本 Json to table
+    https://www.w3schools.com/code/tryit.asp?filename=GHYGTEA5D18G
+  - IT 幫幫忙解答
+    https://ithelp.ithome.com.tw/questions/10199870
 
 ## debug & Issue
 
