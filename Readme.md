@@ -4,25 +4,37 @@
 
 ## 簡介
 
-- html
-  畫面元素的搭建 <table class="table" id="table"> 
-  - bootstrap:網站樣板，由 HTML、CSS 和 JavaScript 寫成的前端框架，核心的設計目標是達成 RWD 響應式與行動優先。
-  如果不想要管網頁設計可以直接向以下這樣套用 ex:按鈕設計
+1. html:畫面元素的搭建
+
+- bootstrap:網站樣板，由 HTML、CSS 和 JavaScript 寫成的前端框架，核心的設計目標是達成 RWD 響應式與行動優先。
+- 如果不想要管網頁設計可以直接向以下這樣套用 ex:按鈕設計
   https://www.w3schools.com/bootstrap/bootstrap_buttons.asp (w3school 提供了很多範例線上可以直接按套用)
-- css
-  畫面元素的樣式，色彩，動畫等
-- Javascript(js) 操控畫面的邏輯 
-  - Jquery :jQuery 以 Javascript 來編寫的函式庫，先幫你實作了很多 Javascript 的函數功能，讓開發者可以更輕鬆方便操作網頁元素，是免費的，<head>需引入。 - jQuery 元素选择器:因為要操控 HTML 元素，就必須知道怎麼對應，最簡單的三種如下:
-  `$("button") 選到HTML元素中 <button> 元素。 $("intro") 選到HTML元素中有加class="intro" 的元素。 $("#demo") 選到HTML元素中的 id="demo" 的 元素，正常應只有一個。`
-  更多:更多:https://www.w3schools.com/jQuery/jquery_ref_selectors.asp
-  - React
-  - Vue
-  - Anglar
-  
-  ## 實作參考
-- Javascript(js)
-- HTML 頁面參考 輸入框/下拉選單
+
+2. css: 畫面元素的樣式，色彩，動畫等
+3. Javascript(js) 操控畫面的邏輯
+
+- Jquery :jQuery 以 Javascript 來編寫的函式庫，先幫你實作了很多 Javascript 的函數功能，讓開發者可以更輕鬆方便操作網頁元素，是免費的，<head>需引入。
+
+  - jQuery 程式碼前面需寫 $()
+  - jQuery 元素选择器:因為要操控 HTML 元素，就必須知道怎麼對應，最簡單的三種如下:
+
+  ```
+  $("button") 選到HTML元素中 <button> 元素。
+  $("intro") 選到HTML元素中有加class="intro" 的元素。
+  $("#demo") 選到HTML元素中的 id="demo" 的 元素，正常應只有一個。`
+  更多:https://www.w3schools.com/jQuery/jquery_ref_selectors.asp
+  https://medium.com/@linth/javascript-jquery-%E5%9F%BA%E7%A4%8E%E8%AA%9E%E6%B3%95%E5%92%8C%E6%A6%82%E5%BF%B5-1-4bad45ee9cf8
+  ```
+
+- React
+- Vue
+- Anglar
+
+## 實作參考
+
+- HTML 頁面參考 輸入框/下拉選單/按鈕樣式設定
   https://www.w3schools.com/bootstrap4/bootstrap_forms_inputs.asp
+  https://getbootstrap.com/docs/4.0/components/buttons/
 
 - Juery 按鈕事件 jQuery click() Method
   https://www.w3schools.com/jquery/event_click.asp
@@ -49,6 +61,8 @@
 ```
 Access to XMLHttpRequest at 'http://127.0.0.1:56888/api/v1/pet?animal_kind=Mickey%20Mouse&_=1611386085016' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 ```
+
+---
 
 ## Others
 

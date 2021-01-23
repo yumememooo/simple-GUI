@@ -1,8 +1,5 @@
 $(document).ready(function () {
   $("button").click(function () {
-    //mean select <button>
-    // alert("Value: " + $("#test").val()); //mean select < id="test"> //alet會跳出視窗
-
     getpets($("#kind").val());
   });
 });
@@ -15,13 +12,13 @@ function getpets(kind) {
   $.ajax({
     url: url, //後端的URL
     type: "GET", //用POST的方式
-    // dataType: "json", //response的資料格式
-    // cache: false, //是否暫存
+    dataType: "json", //response的資料格式
+    cache: false, //是否暫存
     // data: data, //傳送給後端的資料
     success: function (response) {
       console.log(response); //成功後回傳的資料json
       // alert(response);
-      $("#size").text(response.length);
+      $("#size").text("Result size: " + response.length);
       if (response.length > 0) {
         jsonString = JSON.stringify(response); //JSON.stringify() 方法是將一個JavaScript值(物件或者陣列)轉換為一個 JSON字串
         json2table(jsonString, $("#table"));
